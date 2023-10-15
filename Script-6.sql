@@ -45,7 +45,7 @@ select order_id, customer_id , amount ,
 from orders 
 
 
---нужно поятоянно получать данные по последнему заказу пользователя 
+--нужно постоянно получать данные по последнему заказу пользователя 
 create view task_1 as 
 select *
 from (
